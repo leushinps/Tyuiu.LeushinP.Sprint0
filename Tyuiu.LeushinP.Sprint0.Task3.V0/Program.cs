@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System;
 using System.Threading.Tasks;
 
-namespace Tyuiu.LeushinP.Sprint0.Task3.V0.Test
+namespace Tyuiu.LeushinP.Sprint0.Task3.V0
 {
     class Program
     {
