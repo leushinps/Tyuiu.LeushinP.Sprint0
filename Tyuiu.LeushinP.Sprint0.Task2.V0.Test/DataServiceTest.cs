@@ -14,7 +14,7 @@ namespace Tyuiu.LeushinP.Sprint0.Task2.V0.Test
             var name = "Павел";
             var res = DataService.GetMessage(name);
 
-            Assert.AreEqual("Привет..., Павел", res);
+            Assert.AreEqual("Привет.., Павел", res);
         }
     }
 }
