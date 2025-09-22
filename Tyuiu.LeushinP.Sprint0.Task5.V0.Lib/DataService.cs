@@ -1,7 +1,6 @@
-﻿using System;
-using System.Linq;
-using Tyuiu.LeushinP.Sprint0.Task4.V0.Lib;
-namespace Tyuiu.LeushinP.Sprint0.Task4.V0.Lib
+﻿using System.ComponentModel.Design;
+
+namespace Tyuiu.LeushinP.Sprint0.Task5.V0.Lib
 {
     public class DataService
     {
@@ -19,7 +18,15 @@ namespace Tyuiu.LeushinP.Sprint0.Task4.V0.Lib
         }
         public static double Division(int a, int b)
         {
-            return a / b;
+            if (b == 0)
+            {
+                Console.WriteLine("Переменная b =  {0} на ноль / нельзя!!", b);
+                return -1;
+            }
+            else
+            {
+                return a / b;
+            }
         }
     }
 }
